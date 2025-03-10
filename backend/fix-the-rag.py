@@ -23,6 +23,7 @@ model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 from lucknowllm import UnstructuredDataLoader, split_into_segments
 
 loader = UnstructuredDataLoader()
+# instead of vector DB
 external_database = loader.get_data(folder_name="d:/source/RAG-LLM/html-dump")
 
 # to be implemented 
