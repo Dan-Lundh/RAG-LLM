@@ -1,0 +1,1 @@
+A simple program illustrating Google gemini and RAG using API lucknow module. It does not contain any vector DB, instead for illustrative purpose it simply takes one document and tries to use  it for augumentation.
